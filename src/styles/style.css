@@ -1,0 +1,400 @@
+.container{
+    display: flex;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.flex-right{
+    flex-direction: row-reverse;
+    gap:20px;
+}
+.col{
+    flex-direction: column;
+}
+.row{
+    flex-direction:row;
+}
+.center-m{
+    margin: auto;
+}
+.max-width{
+    max-width: 1440px;
+}
+.width-10{
+    width: 10%;
+}
+.width-15{
+    width: 15%;
+}
+.width-20{
+    width: 20%;
+}
+.width-25{
+    width: 25%;
+}
+.width-30{
+    width: 30%;
+}
+.width-35{
+    width: 35%;
+}
+.width-40{
+    width: 40%;
+}
+.width-45{
+    width: 45%;
+}
+.width-50{
+    width: 50%;
+}
+.width-55{
+    width: 55%;
+}
+.width-60{
+    width: 60%;
+}
+.width-65{
+    width: 65%;
+}
+.width-70{
+    width: 70%;
+}
+.width-100{
+    width: 100%;
+}
+.mT5{
+    margin-top: 5px;
+}
+.oN{
+    overflow: hidden;
+}
+h1{
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 68px;
+}
+h2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+h3{
+    color: var(--primary-text);
+    font-size: 20px;
+    font-weight: 500;
+}
+div{
+    color: var(--primary-text);
+}
+p{
+    color: #000;
+}
+.pad-ver-60{
+    padding: 60px 10px;
+}
+.p-60{
+    padding: 60px 10px;
+}
+.p-100{
+    padding: 100px 10px;
+}
+.pad-10 , .p-10{
+    padding: 10px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.gap-5{
+    gap: 5px;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-20{
+    gap:20px;
+}
+.gap-40{
+    gap:40px;
+}
+.gap-60{
+    gap:60px;
+}
+.gap-80{
+    gap:80px;
+}
+.gap-100{
+    gap:100px
+}
+
+.gap-24{
+    gap:24px;
+}
+.center{
+    text-align:center;
+}
+.left{
+    text-align: left;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+.li-none{
+    list-style: none;
+}
+
+input{
+    outline: none;
+    color:black;
+    width: 100%;
+}
+/* No global */
+.categoreyList{
+    padding: 100px 10px;
+}
+.imgwidth{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius:20px;
+}
+.vcards{
+    gap:20px;
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+    align-items: center;
+    font-size: 16px;
+    line-height: 22px;
+}
+.vcards h3{
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+}
+.vcards img{
+    width: 100px;
+    height: 75px;
+    border-radius: 6px;
+}
+
+.vCenter{
+    display: flex;
+    align-items: center;
+    
+}
+.crCards{
+    background: rgba(0,0,0,0.05);
+    padding: 15px;
+    border-radius: 6px;
+}
+.crCards h3{
+    color: black;
+    font-weight: 700;
+    line-height: 20px;
+}
+.crCards .imgBox > div{
+    align-items: center;
+}
+.crCards .imgBox img{
+    width: 50px;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-result-list {
+    position: absolute;
+    background-color: #fff;
+    width: 20%;
+}
+.result-list-item a h3{
+    font-size: 18px;
+    line-height: 16px;
+}
+.result-list-item a p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.result-list-item:hover{
+    background-color: #efefef;
+}
+.rating-IconBox{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+.rating-IconBox > div{
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+    align-items: center;
+}
+.categoryList > div > div{
+    width: 114px;
+}
+.categoryList h3{
+    font-size: 1rem;
+}
+.categoryList .item .item-img{
+    height: 74px;
+    width: 74px;
+    padding: 15px;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    display: flex;
+}
+.form-component-wrapper{
+    /* border: 1px solid black; */
+    padding: 80px 0px;
+}
+
+.form-component{
+    width: 680px;
+    margin: auto;
+}
+
+.form-component .head{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-component .head h1{
+    margin-bottom: 20px;
+}
+.form-component form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-component form > div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-component form label{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.form-component form input{
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form-component form select{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-component form > div > div{
+    color: red;
+}
+
+.form-component button{
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+.statics-card{
+    flex: 30%;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+.statics-card h3{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: var(--primary-text);
+}
+.statics-card span{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.statics-card p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.mhresultItemBox{
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+.mhresultItemBoxImg{
+    border-radius: 8px;
+    height: 180px;
+
+    object-fit: cover;
+}
+.mhresultItemBox h2{
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+}
+.mhresultItemBox h2 a{
+    color: #000;
+    text-decoration: none;
+}
+.listItemBoxadress{
+    display: flex;
+    gap: 5px;
+}
+.servicetags{
+    background-color: #efefef;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 8px;
+}
+.loopbusiness-card {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--primary-border);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.loopbusiness-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.loopbusiness-card p{
+    font-size: 16px;
+    color: var(--secondary-text);
+    font-family: 'Lato', sans-serif;
+}
+.loopbusiness-card label{
+    color:#FFD700;
+}
+.fBCarousel .swiper-wrapper{
+    gap:40px;
+    padding: 50px 0px;
+}
+.fBCarousel .swiper-button-next , .fBCarousel .swiper-button-prev{
+    color: var(--primary-color);
+}
