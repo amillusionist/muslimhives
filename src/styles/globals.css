@@ -19,14 +19,15 @@
     rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0)
   );
-  --primary-color:#FE6A00;
+  --primary-color:#00E0C0;
+  --secondary-color:#FE6A00 ;
   --primary-Winput:#fff;
   --primary-border:rgba(0,0,0,0.2);
   --primary-text: #000;
   --secondary-text:#7f7f7f;
   --tile-start-rgb: 239, 245, 249;
   --tile-end-rgb: 228, 232, 233;
-
+  --active-border:#FE6A00;
   --callout-rgb: 238, 240, 241;
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
@@ -70,8 +71,11 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  /* user-select: none; */
 }
-
+.maxW{
+  max-width: 1040px;
+}
 html,
 body {
   max-width: 100vw;
@@ -83,13 +87,14 @@ body {
 main{
   background-color: white;
   max-width: 1440px;
-  padding: 10px 50px;
+  padding: 20px 20px 100px 20px;
   border-radius: 10px;
   margin:10px auto;
 }
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 h1, h2, h3, h4, h5, h6, button, a, p{
   font-family: 'inter';
@@ -120,7 +125,7 @@ h6 {
 
 /* Paragraph styles */
 p {
-  font-family: 'Your Body Font', sans-serif; /* Use your preferred font family */
+  font-family: 'Lato', sans-serif; /* Use your preferred font family */
   font-size: 1rem; /* Adjust as needed */
   line-height: 1.5; /* Adjust as needed */
 }
@@ -174,14 +179,16 @@ label{
 .button{
   font-size: 16px;
   border-radius: 6px;
-  padding: 5px 12px;
+  padding: 8px 24px;
   text-decoration: none;
   font-weight: 500;
+  display: inline-block;
 }
 .primary-button{
-  background-color: #FE6A00;
+  background-color: var(--primary-color);
   border: none;
   color: var(--primary-Winput);
+  min-width: 150px;
 }
 .border-button{
   border:1px solid var(--primary-border);
@@ -189,6 +196,10 @@ label{
 input[type="search"]{
   background-color: var(--primary-Winput);
   border: 0px;
+}
+.rightImg{
+  width: 80%;
+  height: 80%;
 }
 .wButton{
   background-color: #23AF3C;

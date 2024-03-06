@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import Page1 from './Page1';
 import Page2 from './Page2';
 import Page3 from './Page3';
-// import "../../styles/";
+import IconButton from '../../../components/iconbutton';
 
 const MultiPageForm = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -40,7 +41,11 @@ const MultiPageForm = () => {
         {currentPage === 2 && <Page2 onNext={handleNext} onBack={handleBack}/>}
         {currentPage === 3 && <Page3 onNext={handleNext} onBack={handleBack}/>}
       </div>
+      <div>
+
+      </div>
       <div className='reg-container-right'>
+      <Image className="" src="http://localhost:1337/uploads/4957412_Mobile_login_24e9793f6f.svg" width={100} height={100} objectFit="cover" />
       </div>
     </div>
     </>

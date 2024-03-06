@@ -50,7 +50,7 @@ header{
 }
 
 .auth-buttons .sign-up{
-    background-color: #FE6A00;
+    background-color: var(--primary-color);
     color: #FFFFFF;
     border-radius: 10px;
     padding: 10px 20px;

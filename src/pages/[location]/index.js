@@ -3,8 +3,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Poppins } from "next/font/google";
-import Header from "../../../components/header";
-import Footer from "../../../components/footer";
 import ListItemBox from "../../../components/listItemBox";
 import Breadcrumb from '../../../components/Breadcrumb';
 
@@ -14,11 +12,9 @@ const LocationPage = () => {
   const { slug } = router.query;
   return (
     <>
-      <Header />
-      <main>
+      <main className="flex col gap-20">
         <div>
         <Breadcrumb />
-          <h1>This is a dynamic page with slug: {slug}</h1>
         </div>
         <div className="col">
           <div className="flex width-70 col gap-20">
@@ -38,7 +34,6 @@ const LocationPage = () => {
           <div className="flex width-30"></div>
         </div>
       </main>
-      <Footer />
     </>
   );
 };

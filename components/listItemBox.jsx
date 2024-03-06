@@ -2,7 +2,6 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import Link from 'next/link';
 import Image from "next/image";
-import { Poppins } from 'next/font/google'
 import Button from "./button";
 import IconButton from "./iconbutton";
 import StarRating from "./starRating";
@@ -16,7 +15,8 @@ export default function ListItemBox({image , name , avgrating, totalrating, addr
                 <div><Image className="mhresultItemBoxImg" src={`${image}`} width={180} height={180} objectFit="cover" /></div>
             </Link>
         </div>
-        <div className='flex col gap-10'>
+        <div className='flex col space-between'>
+            <div className='flex col gap-10'>
             <h2>
                 <Link href="#" className='flex gap-5'>
                     <div>{name}</div>
@@ -32,6 +32,7 @@ export default function ListItemBox({image , name , avgrating, totalrating, addr
             <div className='flex gap-20'>
                 <div className='servicetags'>Estate Agents</div>
                 <div className='servicetags'>Estate Agents for residential</div>
+            </div>
             </div>
             <div>
                 <div className='flex gap-20'>

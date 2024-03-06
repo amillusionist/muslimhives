@@ -23,6 +23,7 @@ import supermarket from "../../public/assets/images/Supermarket.svg";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { categoreyList, categoreyList2 } from "../../components/menuOptions";
 import Carousel from '../../components/loopCarousel';
+import GoToTop from '../../components/gotoTop';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -219,6 +220,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <GoToTop />
     </>
   );
 }

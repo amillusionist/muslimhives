@@ -3,8 +3,6 @@ import Link from 'next/link';
 import Image from 'next/image'
 import { menuOptions } from './menuOptions';
 import Logo from '../public/logo.svg';
-import '@/styles/style.css';
-import '@/styles/header.css';
 
 export default function Header() {
   return (
@@ -36,7 +34,7 @@ export default function Header() {
       <div className="auth-buttons">
         {/* Login and Signup Buttons */}
         <button>Login</button>
-        <button className='sign-up'>Sign Up</button>
+        <Link className='sign-up' href="/registration">Sign Up</Link>
       </div>
     </header>
   );

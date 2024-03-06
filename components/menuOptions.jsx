@@ -15,7 +15,7 @@ export const menuOptions = [
   ];
 
   export const footerLinksOptions1 = [
-    { id: 1, label: 'Links', path: '/' },
+    { id: 1, label: 'Home', path: '/' },
     { id: 2, label: 'About Us', path: '/about' },
     { id: 3, label: 'Explore', path: '/explore' },
     { id: 4, label: 'Free Listing', path: '/free-listing' },
@@ -24,10 +24,10 @@ export const menuOptions = [
   ];
 
   export const footerLinksOptions2 = [
-    { id: 1, label: 'Links', path: '/', },
-    { id: 2, label: 'About Us', path: '/about' },
-    { id: 3, label: 'Explore', path: '/explore' },
-    { id: 4, label: 'Free Listing', path: '/free-listing' },
+    { id: 1, label: 'Careers', path: '/career', },
+    { id: 2, label: 'Contact', path: '/contact' },
+    { id: 3, label: 'Open Ticket', path: '/open-ticket' },
+    { id: 4, label: 'Faq', path: '/faq' },
     // { id: 5, label: 'Blog', path: '/blog' },
     // { id: 6, label: 'Contact', path: '/contact' },
   ];
@@ -41,9 +41,9 @@ export const menuOptions = [
     // { id: 6, label: 'Contact', path: '/contact' },
   ];
   export const footerExtraLinks = [
-    { id: 1, name: 'Terms of Service', Url:'/terms-of-service' },
+    { id: 1, name: 'Terms of Use', Url:'/terms-of-service' },
     { id: 2, name: 'Privacy Policy', Url:'/privacy-policy' },
-    { id: 3, name: 'Contact Us', Url:'/contact-us' },
+    { id: 3, name: 'Contact Us', Url:'/contact' },
   ];
 
   export const categoreyList = [

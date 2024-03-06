@@ -1,0 +1,30 @@
+.goToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s;
+    z-index: 1000;
+}
+
+.goToTopButtonHidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.goToTopButton:hover {
+    background-color: var(--primary-color);
+}
+
+.icon {
+    font-size: 34px;
+}
