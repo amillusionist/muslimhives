@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useEffect, useState } from 'react';
-import ContactForm from "../../components/contactForm"
-import ContactInfo from "../../components/contactInfo";
+import ContactForm from "/components/contactForm"
+import ContactInfo from "/components/contactInfo";
 import Image from 'next/image';
 
 export default function Contact() {

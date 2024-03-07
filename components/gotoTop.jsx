@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaArrowCircleUp } from 'react-icons/fa';
-import styles from '../src/styles/GoToTop.module.css'; // Create a CSS module file for styling
+import styles from '@/styles/GoToTop.module.css'; // Create a CSS module file for styling
 
 const GoToTop = () => {
     const [isVisible, setIsVisible] = useState(false);

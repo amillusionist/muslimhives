@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
-import OTPInput from '../../../components/otpInput'
+import OTPInput from '/components/otpInput'
 const Page1 = ({ onNext }) => {
   const [otp, setOTP] = useState('');
 

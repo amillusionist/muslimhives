@@ -1,9 +1,9 @@
-import Twitter from "../public/assets/icons/Twitter.svg";
-import LinkedIn from "../public/assets/icons/linkedin.svg";
-import Facebook from "../public/assets/icons/Facebook.svg";
-import Instagram from "../public/assets/icons/Instagram.svg";
-import Youtube from "../public/assets/icons/youtube.svg";
-import Frame from "../public/Frame.svg";
+import Twitter from "/public/assets/icons/Twitter.svg";
+import LinkedIn from "/public/assets/icons/linkedin.svg";
+import Facebook from "/public/assets/icons/Facebook.svg";
+import Instagram from "/public/assets/icons/Instagram.svg";
+import Youtube from "/public/assets/icons/youtube.svg";
+import Frame from "/public/Frame.svg";
 
 export const menuOptions = [
     { id: 1, label: 'Home', path: '/' },

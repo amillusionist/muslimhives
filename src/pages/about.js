@@ -2,7 +2,7 @@
 import React, {lazy, Suspense, useState } from "react";
 import Image from 'next/image';
 import Head from 'next/head';
-import Header from '../../components/header';
+import Header from '/components/header';
 
 
 

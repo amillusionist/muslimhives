@@ -1,29 +1,29 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import { Button, IconButton } from "../../components/button"
+import { Button, IconButton } from "/components/button"
 import React, {lazy, Suspense, useState } from "react";
-import ModalBox from "../../components/ModalBoxWide";
-import RegisterFrom from "../../public/forms/register";
-import Getlisted from "../../public/forms/getlisted";
-const CategoreyIconBox = lazy(() => import('../../components/categoreyIconBox'));
-import FindByLocation from "../../components/findByLocation";
-import StaticsCounter from "../../components/statics";
+import ModalBox from "/components/ModalBoxWide";
+import RegisterFrom from "/public/forms/register";
+import Getlisted from "/public/forms/getlisted";
+const CategoreyIconBox = lazy(() => import('/components/categoreyIconBox'));
+import FindByLocation from "/components/findByLocation";
+import StaticsCounter from "/components/statics";
 // import WideSlider from "../../components/wideSlider";
-import ContainerImage from "../../public/container.png";
-import SearchImage from "../../public/Search.svg";
-import Image1 from "../../public/img1.svg";
-import Image2 from "../../public/img2.svg";
-import Image3 from "../../public/img3.svg";
-import Image4 from "../../public/img4.svg";
-import Image5 from "../../public/img5.svg";
-import profile from "../../public/assets/images/profile.png";
-import carousel from "../../public/assets/images/Carousel.svg";
-import supermarket from "../../public/assets/images/Supermarket.svg";
+import ContainerImage from "/public/container.png";
+import SearchImage from "/public/Search.svg";
+import Image1 from "/public/img1.svg";
+import Image2 from "/public/img2.svg";
+import Image3 from "/public/img3.svg";
+import Image4 from "/public/img4.svg";
+import Image5 from "/public/img5.svg";
+import profile from "/public/assets/images/profile.png";
+import carousel from "/public/assets/images/Carousel.svg";
+import supermarket from "/public/assets/images/Supermarket.svg";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { categoreyList, categoreyList2 } from "../../components/menuOptions";
-import Carousel from '../../components/loopCarousel';
-import GoToTop from '../../components/gotoTop';
+import Carousel from '/components/loopCarousel';
+import GoToTop from '/components/gotoTop';
 
 const inter = Inter({ subsets: ["latin"] });
 

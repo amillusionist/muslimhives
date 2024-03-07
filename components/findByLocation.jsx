@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
-import SearchImage from '../public/Search.svg';
+import SearchImage from '/public/Search.svg';
 import Link from 'next/link';
 
 export default function FindByLocation() {

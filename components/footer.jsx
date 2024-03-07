@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image'
 import { footerLinksOptions1, footerLinksOptions2, footerSocialLinks, footerExtraLinks } from './menuOptions';
-import Logo from '../public/logo.svg';
+import Logo from '/public/logo.svg';
 
 export default function Footer() {
     return (
