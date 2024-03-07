@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Poppins } from "next/font/google";
 import ListItemBox from "/components/listItemBox";
-import Breadcrumb from "/components/Breadcrumb";
+import Breadcrumb from "../../../components/Breadcrumb";
 
 
 const LocationPage = () => {
