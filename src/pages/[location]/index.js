@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Poppins } from "next/font/google";
 import ListItemBox from "/components/listItemBox";
-import Breadcrumb from "/components/Breadcrumb";
+
 
 
 const LocationPage = () => {
@@ -14,7 +14,7 @@ const LocationPage = () => {
     <>
       <main className="flex col gap-20">
         <div>
-        <Breadcrumb />
+        
         </div>
         <div className="col">
           <div className="flex width-70 col gap-20">
