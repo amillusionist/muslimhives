@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 import PropTypes from 'prop-types';
 import StarRating from './starRating'
 
@@ -14,9 +15,9 @@ const BusinessLoopCard = ({ photo, name, description, onClick }) => {
         <div className='flex gap-5 mT5'><StarRating /></div>
         
       </div>
-      <button className="loopbusiness-card__button" onClick={onClick}>
+      <Link className="loopbusiness-card__button" href={onClick}>
         <i className="fas fa-arrow-right"></i>
-      </button>
+      </Link>
     </div>
   );
 };

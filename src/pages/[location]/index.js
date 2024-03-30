@@ -13,9 +13,6 @@ const LocationPage = () => {
   return (
     <>
       <main className="flex col gap-20">
-        <div>
-        
-        </div>
         <div className="col">
           <div className="flex width-70 col gap-20">
             <ListItemBox image="https://content.jdmagicbox.com/comp/pune/g4/020pxx20.xx20.180116071920.u1g4/catalogue/publiq-hinjawadi-pune-pubs-4em8w.jpg?clr=#663800"
